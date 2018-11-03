@@ -48,7 +48,7 @@ namespace WishList.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Login()
         {
